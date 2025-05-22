@@ -68,15 +68,15 @@ python {path_to_dataset}/search.py
 
 | Argument            | Type   | Default                     | Description                                                     |
 | ------------------- | ------ | --------------------------- | --------------------------------------------------------------- |
-| `--save_dir`        | `str`  | `''`                | Directory to store all output results.                          |
-| `--expr_name`       | `str`  | `'gsm8k_gpt4omini_results'` | Name for the current experiment run.                            |
-| `--n_inner_loop`    | `int`  | `6`                         | Number of inner loop iterations (subtask-level updates).        |
-| `--n_outer_loop`    | `int`  | `3`                         | Number of outer loop iterations (meta-level updates).           |
-| `--version`         | `str`  | `'v1'`                      | Version tag to distinguish different runs.                      |
-| `--train_dir_path`  | `str`  | `''`  | Path to the training (validation) dataset.                      |
-| `--test_dir_path`   | `str`  | `''`      | Path to the test dataset.                                       |
-| `--model`           | `str`  | `'gpt-4o-mini-2024-07-18'`  | Backbone LLM used for executing workflows.                      |
-| `--update_model`    | `str`  | `'gpt-4.1'`                 | LLM used for generating workflow updates.                       |
+| `--save_dir`        | `str`  | Directory to store all output results.                          |
+| `--expr_name`       | `str`  | Name for the current experiment run.                            |
+| `--n_inner_loop`    | `int`  | Number of inner loop iterations (subtask-level updates).        |
+| `--n_outer_loop`    | `int`  | Number of outer loop iterations (meta-level updates).           |
+| `--version`         | `str`  | Version tag to distinguish different runs.                      |
+| `--train_dir_path`  | `str`  | Path to the training (validation) dataset.                      |
+| `--test_dir_path`   | `str`  | Path to the test dataset.                                       |
+| `--model`           | `str`  | Backbone LLM used for executing workflows.                      |
+| `--update_model`    | `str`  | LLM used for generating workflow updates.                       |
 
 
 ---
