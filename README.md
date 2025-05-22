@@ -67,7 +67,7 @@ python {path_to_dataset}/search.py
 ### 3. Command-Line Arguments
 
 | Argument            | Type   | Description                                                     |
-| ------------------- | ------ | --------------------------- | --------------------------------------------------------------- |
+| ------------------- | ------ | --------------------------------------------------------------- |
 | `--save_dir`        | `str`  | Directory to store all output results.                          |
 | `--expr_name`       | `str`  | Name for the current experiment run.                            |
 | `--n_inner_loop`    | `int`  | Number of inner loop iterations (subtask-level updates).        |
